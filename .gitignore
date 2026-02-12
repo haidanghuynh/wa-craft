@@ -1,0 +1,43 @@
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Dependencies
+vendor/
+node_modules/
+
+# Environment
+.env
+.env.local
+
+# Database
+database/*.db
+database/*.sqlite
+database/*.db-journal
+database/seed_mysql.sql
+
+# Logs
+*.log
+logs/
+error.log
+
+# Cache
+cache/
+tmp/
+temp/
+
+# Uploads
+public/uploads/*
+!public/uploads/.gitkeep
+
+# OS specific
+*.swp
+*.swo
+*~
